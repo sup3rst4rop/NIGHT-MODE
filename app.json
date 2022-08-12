@@ -1,0 +1,33 @@
+{
+	"name": "NIGHT-MODE",
+	"description": " A Telegram Bot To Prevent Night Spams!",
+	"keywords": [
+		"telegram",
+		"pyrogram",
+		"bot"
+	],
+        "stack": "container",
+	"repository": "https://github.com/sup3rst4rop/NIGHT-MODE",
+	"success_url": "https://t.me/Secret_Society_Op",
+	"env": {
+		"TOKEN": {
+			"description": "Your Teleram Bot Token ( @BotFather ) ",
+		        "value": ""
+		},
+		"CHAT_ID": {
+		        "description": "Your Telegram Group-ID!",
+		        "value": ""
+		},
+                "TIMEZONE": {
+                        "description": "Your TimeZone!",
+                        "value": "Asia/Kolkata",
+                        "required": false
+                }
+	},
+        "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
